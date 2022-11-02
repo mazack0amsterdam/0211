@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+.przycisk{
+    padding-left: 5px;
+    padding-top: 5px;
+    display: flex;
+	position: absolute;
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.pasek{
+    position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background: transparent;
+	transition: ease .40s;
+    color: black;
+	font-size: 1.1rem;
+	font-weight: 500;
+	border-radius: 4px;
+	transition: ease .40s;  
+}
+.main{
+    height: 100%;
+    width: 430px;
+}
+.zdjecie{
+    display: block;        
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;;
+    margin-top: 50px; 
+    height: 430px;
+}
+.text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    position: absolute;
+}
+.main h1{
+    margin-bottom: 10px;
+    font-size: large;
+    margin-left: 18px;
+    margin-top: 28px;
+    margin-right: auto;
+}
+.lista{
+    scale: 95%;
+}
+.carousel slide{
+    margin: 0;
+    padding: -20px;
+	margin-left: 50px
+}
+.glide{
+    margin: 0%;
+}
+.menuk{
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.menuk2{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.opcje{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    transition: all 0.5s ease-out;
+    font-weight: 500;
+    font-size: 18px;
+    left: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.pokaz{
+    transition: all 0.5s ease-out;
+    left: 0;
+    display: block;
+    block-size: 100%;
+    width: 392px;
+    height: 846px;
+    background: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.karuzela{
+    visibility: visible;
+    transition: all 0.06s ease-in;
+}
+.karuzela2{
+    visibility: hidden;
+    transition: all 0.06s ease-out;
+}
+
+.menu-list__link {
+    display: block;
+    padding: 0.75rem;
+    border-top: 1px solid #ddd;
+    color: #000;
+}
+
+.przycisk2{
+    border: none;
+    background-color: #fff;
+    transform: translateX(350px);
+}
+
+.logo{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 55px;
+}
